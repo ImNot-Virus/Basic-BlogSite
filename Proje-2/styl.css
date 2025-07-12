@@ -1,0 +1,130 @@
+/* EL DİABLO */
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #e9896a;
+}
+
+header h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9896a;
+}
+
+main {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.blog-post, #hakkimda, #yorumlar {
+    background-color: rgba(0, 0, 0, 0.5); /* Daha koyu şeffaf */
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Daha belirgin gölge */
+}
+
+.blog-post img, #hakkimda .profil-resmi, .sevdigim-sey img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3)
+}
+.sevdigim-sey img{ 
+  max-height: 200px;
+  object-fit: cover;
+}
+.profil-resmi{
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+.hakkimda-icerik{
+  overflow: hidden;
+}
+
+.date {
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    display: inline-block;
+    background-color: #e9896a;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #c85f3b;
+}
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #e9896a;
+}
+
+.site-adi {
+    color: #e9896a;
+    font-style: italic;
+}
+
+#yorum-formu label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ccc;
+}
+
+#yorum-formu input[type="text"],
+#yorum-formu textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 4}

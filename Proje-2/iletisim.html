@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="ilet.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Blog <span class="site-adi">Sitem</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inde.html">Anasayfa</a></li>
+                <li><a href="hakkimda.html">Hakkımda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>İletişim</h2>
+
+        <div class="iletisim-alani">
+            <h3>Bana Ulaşın</h3>
+            <p>Sorularınız, önerileriniz veya işbirliği teklifleriniz için aşağıdaki form veya iletişim bilgilerini kullanabilirsiniz.</p>
+
+            <div class="iletisim-formu">
+                <h4>Form ile İletişim</h4>
+                <form action="form-isleme.php" method="post">
+                    <label for="ad">Adınız:</label><br>
+                    <input type="text" id="ad" name="ad" required><br><br>
+
+                    <label for="eposta">E-postanız:</label><br>
+                    <input type="email" id="eposta" name="eposta" required><br><br>
+
+                    <label for="mesaj">Mesajınız:</label><br>
+                    <textarea id="mesaj" name="mesaj" rows="5" required></textarea><br><br>
+
+                    <input type="submit" value="Gönder">
+                </form>
+            </div>
+
+            <div class="iletisim-bilgileri">
+                <h4>Diğer İletişim Yolları</h4>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> E-posta: <a href="mailto:ornek@eposta.com">XXXXX@gmail.com</a></li>
+                    <li><i class="fab fa-twitter"></i> Twitter: <a href="https://twitter.com/kullaniciadi" target="_blank">@XXXXXXy</a></li>
+                    <li><i class="fab fa-instagram"></i> Instagram: <a href="https://instagram.com/kullaniciadi" target="_blank">@XXXX</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Blog Sitem. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
