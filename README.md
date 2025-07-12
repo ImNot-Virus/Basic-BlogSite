@@ -40,7 +40,7 @@ Projeyi yerel makinenizde hızla çalışır duruma getirmek için aşağıdaki 
 
 1.  Bu depoyu bilgisayarınıza klonlayın:
     ```bash
-    git clone [https://github.com/ImNot-Virus/Basic-BlogSite.git](https://github.com/ImNot-Virus/Basic-BlogSite.git)
+    git clone https://github.com/ImNot-Virus/Basic-BlogSite.git
     ```
 2.  Proje dizinine geçiş yapın:
     ```bash
